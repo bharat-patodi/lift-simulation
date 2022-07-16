@@ -1,0 +1,250 @@
+
+/* ---------------------------------------------------------------
+CSS Reset (minified)
+--------------------------------------------------------------- */
+
+a,
+abbr,
+acronym,
+address,
+applet,
+article,
+aside,
+audio,
+b,
+big,
+blockquote,
+body,
+canvas,
+caption,
+center,
+cite,
+code,
+dd,
+del,
+details,
+dfn,
+div,
+dl,
+dt,
+em,
+embed,
+fieldset,
+figcaption,
+figure,
+footer,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+header,
+hgroup,
+html,
+i,
+iframe,
+img,
+ins,
+kbd,
+label,
+legend,
+li,
+mark,
+menu,
+nav,
+object,
+ol,
+output,
+p,
+pre,
+q,
+ruby,
+s,
+samp,
+section,
+small,
+span,
+strike,
+strong,
+sub,
+summary,
+sup,
+table,
+tbody,
+td,
+tfoot,
+th,
+thead,
+time,
+tr,
+tt,
+u,
+ul,
+var,
+video {
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:after,
+blockquote:before,
+q:after,
+q:before {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:after,
+*:before {
+  box-sizing: inherit;
+}
+
+/* ---------------------------------------------------------------
+Variables
+--------------------------------------------------------------- */
+
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Raleway+Dots&family=Raleway:ital,wght@0,100;0,400;0,700;0,900;1,100;1,400;1,700;1,900&display=swap');
+
+:root {
+
+  /* Color Theme Begin */
+  --theme-black: #06090f;
+  --theme-light-purple: #6e40c9;
+  --theme-dark-purple: #271052;
+  --theme-light-yellow: #f8e3a1;
+  --theme-red: #da3633;
+  --theme-orange: #f0883e;
+  --theme-green: #3fb950;
+  --theme-pink: #db61a2;
+  --theme-blue: #388bfd;
+  /* Color Theme End */
+
+  /* Font Values Begin */
+
+  --title-font: "Courier Prime";
+  --text-font: "Raleway";
+  --tertiary-font: "Raleway Dots";
+  /* Font Values End */
+}
+
+/* ---------------------------------------------------------------
+My Base Styles
+--------------------------------------------------------------- */
+
+body {
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0 auto;
+  font-family: var(--text-font);
+}
+
+h1 {
+  font-size: 1.6em;
+}
+
+h2 {
+  font-size: 1.4em;
+}
+
+h3 {
+  font-size: 1.2em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--title-font);
+}
+
+label,
+input {
+  display: block;
+}
+
+/* ---------------------------------------------------------------
+Modular Classes
+--------------------------------------------------------------- */
+
+.container {
+  max-width: 100ch;
+  margin: 0 auto;
+}
+
+/* ---------------------------------------------------------------
+Project Specific Styles
+--------------------------------------------------------------- */
+
+h1 {
+  text-align: center;
+}
+
+.action-btns {
+  text-align: center;
+}
+
+.floor-main-part {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+}
+
+.floor-main-part * {
+  /* border: 3px solid; */
+  text-align: center;
+}
+
+.lifts {
+  display: flex;
+  gap: 1rem;
+}
+
+/* ---------------------------------------------------------------
+Media Queries
+--------------------------------------------------------------- */
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}
