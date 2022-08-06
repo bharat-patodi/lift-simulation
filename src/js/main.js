@@ -45,7 +45,7 @@ addLiftBtn.addEventListener("click", () => {
     console.log("add lift");
     let lift = document.createElement("div");
     lift.className = "lift";
-    lift.innerHTML = `<p>Lift</p>
+    lift.innerHTML = `<p></p>
           `;
           let floors = document.getElementsByClassName("floor");
   let lastFloor = floors[floors.length - 1];
